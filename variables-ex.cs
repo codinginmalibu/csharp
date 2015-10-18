@@ -1,11 +1,11 @@
 using System;
 
-public class Hello
+public class MyVariables
 {
     public static void Main()
     {
     	string productName = "TV";
-    	int productYear = "2012";
+    	int productYear = 2012;
     	float productPrice = 279.99f;
 
     	// test code

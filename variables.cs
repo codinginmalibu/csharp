@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-public class Hello
+public class MyVariables
 {
     public static void Main()
     {
