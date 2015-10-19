@@ -39,5 +39,13 @@ public class MyLoops
             n++;
         }
 
+        // foreach loop
+        string[] names = {"Cheryl", "Joe", "Matt", "Robert"};
+
+        foreach (string person in names)
+        {
+            Console.WriteLine("{0} ", person);
+        }
+
     }
 }
