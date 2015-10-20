@@ -1,16 +1,17 @@
-<%
-    HelloWorldLabel.Text = "Hello, world!";
-%>
+<%@ Register TagPrefix="My" TagName="EventUserControl" Src="~/EventUserControl.ascx" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
     <title>Untitled Page</title>
 </head>
 <body>
-    <form id="form1" runat="server">
-    <div>
-        <asp:Label runat="server" id="HelloWorldLabel"></asp:Label>
-    </div>
-    </form>
+
+	<form id="form1" runat="server">
+	<div>
+	    <asp:Label runat="server" id="HelloWorldLabel"></asp:Label>
+	</div>
+	</form>
+	<My:EventUserControl runat="server" ID="MyEventUserControl" OnPageTitleUpdated="MyEventUserControl_PageTitleUpdated" />
+
 </body>
 </html>
